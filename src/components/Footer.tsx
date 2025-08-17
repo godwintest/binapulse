@@ -34,7 +34,7 @@ const Footer: React.FC<FooterProps> = ({ setCurrentPage }) => {
             <div className="space-y-3 text-sm">
               <div className="flex items-center text-gray-400">
                 <Phone className="h-4 w-4 mr-3 flex-shrink-0" />
-                <span>+233 24 123 4567</span>
+                <span>+233 55 412 9334</span>
               </div>
               <div className="flex items-center text-gray-400">
                 <Mail className="h-4 w-4 mr-3 flex-shrink-0" />

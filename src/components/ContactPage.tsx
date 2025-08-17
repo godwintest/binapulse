@@ -49,7 +49,7 @@ const ContactPage: React.FC = () => {
       icon: Phone,
       title: "Call Us",
       description: "Speak directly with our team",
-      contact: "+233 24 123 4567",
+      contact: "+233 55 412 9334",
       action: "Call Now",
       color: "from-green-500 to-emerald-500"
     },
@@ -65,7 +65,7 @@ const ContactPage: React.FC = () => {
       icon: MessageCircle,
       title: "WhatsApp",
       description: "Quick chat on WhatsApp",
-      contact: "+233 24 123 4567",
+      contact: "+233 55 412 9334",
       action: "Chat Now",
       color: "from-green-600 to-green-500"
     }
@@ -206,7 +206,7 @@ const ContactPage: React.FC = () => {
                       </div>
                       <div>
                         <p className="font-semibold">Phone</p>
-                        <p className="opacity-90">+233 24 123 4567</p>
+                        <p className="opacity-90">+233 55 412 9334</p>
                         <p className="opacity-75 text-sm">24/7 Support Available</p>
                       </div>
                     </div>
@@ -540,7 +540,7 @@ const ContactPage: React.FC = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="#" className="inline-flex items-center bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors">
               <Phone className="mr-2 h-5 w-5" />
-              Call +233 24 123 4567
+              Call +233 55 412 9334
             </a>
             <a href="#" className="inline-flex items-center bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
               <MessageCircle className="mr-2 h-5 w-5" />

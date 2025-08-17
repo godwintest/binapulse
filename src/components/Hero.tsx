@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
       </div>
 
       <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-1 lg:gap-16 items-center">
           {/* Content */}
           <div className="order-2 lg:order-1">
             <div className="inline-flex items-center bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
@@ -61,7 +61,7 @@ const Hero: React.FC = () => {
 
           {/* Hero Image */}
           <div className="order-1 lg:order-2">
-            <div className="relative">
+            <div className="relative hidden lg:block">
               {/* Main Image */}
               <div className="relative z-10">
                 <img 

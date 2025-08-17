@@ -328,7 +328,7 @@ const CareersPage: React.FC = () => {
 
                 <div className="mt-6 p-4 bg-white bg-opacity-20 rounded-lg">
                   <p className="font-semibold text-center">Potential Monthly Earnings</p>
-                  <p className="text-2xl font-bold text-center mt-2">GHS 2,000 - 15,000+</p>
+                  <p className="text-2xl font-bold text-center mt-2">GHS 0 - 15,000+</p>
                   <p className="text-sm opacity-90 text-center">Based on performance and client base</p>
                 </div>
               </div>
