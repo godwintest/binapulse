@@ -55,7 +55,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
   return (
     <header className="bg-white shadow-lg fixed top-0 left-0 right-0 z-50">
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-1">
+        <div className="flex justify-between items-center py-0">
           {/* Logo */}
           <div className="flex-shrink-0">
             <button onClick={() => handleNavigation('home')} className="flex items-center focus:outline-none">
