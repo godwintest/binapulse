@@ -55,15 +55,12 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
   return (
     <header className="bg-white shadow-lg fixed top-0 left-0 right-0 z-50">
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center py-1">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <div className="flex items-center">
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-teal-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">B</span>
-              </div>
-              <span className="ml-2 text-xl font-bold text-gray-900">Binapulse</span>
-            </div>
+            <button onClick={() => handleNavigation('home')} className="flex items-center focus:outline-none">
+              <img className="h-32 w-auto" src="/binapulse/binapulse-logo.png" alt="Binapulse" />
+            </button>
           </div>
 
           {/* Desktop Navigation */}

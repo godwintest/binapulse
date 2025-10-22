@@ -127,7 +127,7 @@ const About: React.FC = () => {
 
             <div className="relative">
               <img 
-                src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                src="./about-hero.jpeg" 
                 alt="Professional team collaboration" 
                 className="w-full h-[500px] object-cover rounded-2xl shadow-2xl"
               />
